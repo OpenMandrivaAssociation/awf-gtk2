@@ -1,5 +1,5 @@
 Name:		awf-gtk2
-Version:	2.9.0
+Version:	4.2.0
 Release:	1
 Source0:	https://github.com/luigifab/awf-extended/archive/v%{version}/%{name}-%{version}.tar.gz
 Summary:       Theme preview application for GTK 2
@@ -36,7 +36,7 @@ fenêtre permettant de voir l'effet visuel du thème appliqué.
 Ce paquet fournit la version GTK 2.}
 
 %prep
-%setup -q -n awf-extended-%{version}
+%setup -q -n awf-extended-4.2.0
 sed -i 's/ -eq 3/ -eq -1/g' configure.ac
 sed -i 's/ -eq 4/ -eq -1/g' configure.ac
 
